@@ -1,0 +1,28 @@
+Script pour bâtir et exécuter automatiquement
+pyinstaller --onefile --noconsole grapheur.py ; cp dist/grapheur.exe grapheur.exe ; grapheur.exe
+
+Enregistrements
+TODO: enregistrer sous (menus?)
+
+XeLaTeX
+xticklabel={command} pour des valeurs de pi et autres
+f(x)???
+samples = 1000 => max(1000, width en cm * 28)
+
+Qualité de vie
+TODO: meilleur drop down pour objet->style (bouton lorsque cliqué agrandi une liste de sélection; on click ferme liste)
+TODO: scroll cadre et barre défilement selon focus
+TODO: page « options »: validate = "key"/"focusout" (champs textes)
+TODO: page « options »: exporter fichiers pdf, png, tex
+TODO: minimize latex include (latex au lieu de xelatex)
+
+Styles
+TODO: styles (https://forum.freecodecamp.org/t/tkinter-custom-widget-styling-and-creating-custom-theme/384257)
+      https://tkdocs.com/tutorial/styles.html
+TODO: police italique pour erreurs
+TODO: classe erreur avec style erreur pour les champs avec une erreur?
+
+Données
+TODO: valider étiquettes ($ balancées, autre considérations tex)
+TODO: valider équation de relation
+TODO: bouton « ? » pour l'équation des relations
